@@ -1,0 +1,478 @@
+{
+  "totalImports": 89,
+  "uniquePaths": 7,
+  "importsByPath": {
+    "./utils/supabaseClient": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/App.js",
+        "importPath": "./utils/supabaseClient",
+        "importStatement": "import { supabase, checkSupabaseConnection, reconnectSupabase } from './utils/supabaseClient'"
+      }
+    ],
+    "../utils/supabaseClient": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/CartItem.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/ChatBot.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/CoursePeople.jsx",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/GoogleCalendarAndTodos.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/NewMyCoursesSchedule.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/NewOnboarding.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/RegistrationModal.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/RegistrationPrompt.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/TopBar.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/contexts/AuthContext.tsx",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/hooks/useCalendarSync.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/hooks/useProfile.ts",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/4yearplan.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase, checkSupabaseConnection } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/AccountProfile.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/AccountSettings.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/AuthConfirm.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CaliforniaPSA.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+     
+      {
+        "file": "C:/Users/Admin/Desktop/Supabase/youredu-minimal/src/pages/NewyorkPSA.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CaliforniaPSAVerify.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CartPage.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Colleges.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Compliance.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CourseCheckout.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CourseDescriptions.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CourseDetail.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CourseMarketplace.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CoursePage.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/CoursePlanning.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/EventPage.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/GroupPage.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Home.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/HouseholdInvitation.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/HouseholdManagement.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/IdGeneration.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/IdGenerationView.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Login.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase, getEnvironmentRedirectUrl } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/MyAccount.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/MyCourses.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/MyGoogleCalendar.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/NewCartPage.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/PublicEvent.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/RecordKeeping.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Scholarships.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/SierraCollegeAEForm.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/SierraCollegeAdmissionGuide.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/SierraCollegeEnrollmentGuide.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/StateComplianceFiling.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      
+      {
+        "file": "/Users/aakas/OneDrive/Desktop/Supabase/youredu-minimal/src/pages/NewYorkComplianceFiling.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/StateRegulationOverview.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/StudentDashboard.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/StudentInvitation.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Support.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/Transcript.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/UpdatePassword.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/UserCoursePage-Materials.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/UserCoursePage-Schedule.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/UserCoursePage.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/UserTodos.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/pages/UserTypeTest.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/AdminMaterialsService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/AssignmentFileService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/AttendanceService.ts",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/BaseService.ts",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/CourseDescriptionService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/CourseFileService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/GradingRubricService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/RecordKeepingService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/SchoolProfileService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/StudentDataService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/StudentService.ts",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/TranscriptService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/services/WorkPermitService.js",
+        "importPath": "../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../utils/supabaseClient'"
+      }
+    ],
+    "../../utils/supabaseClient": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/community/GroupsSection.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/community/QandASection.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/courses/CourseList.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/components/courses/MyCoursesCard.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabase/auth.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabase/community.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabase/events.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabase/groups.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabase/ledger.js",
+        "importPath": "../../utils/supabaseClient",
+        "importStatement": "import { supabase } from '../../utils/supabaseClient'"
+      }
+    ],
+    "./supabaseClient": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/AuthContext.js",
+        "importPath": "./supabaseClient",
+        "importStatement": "import { supabase } from './supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/emailService.js",
+        "importPath": "./supabaseClient",
+        "importStatement": "import { supabase } from './supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/onboardingUtils.js",
+        "importPath": "./supabaseClient",
+        "importStatement": "import { supabase } from './supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/pdfStorage.js",
+        "importPath": "./supabaseClient",
+        "importStatement": "import { supabase } from './supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabaseDiagnostic.js",
+        "importPath": "./supabaseClient",
+        "importStatement": "import { supabase as mainClient } from './supabaseClient'"
+      },
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/todoUtils.js",
+        "importPath": "./supabaseClient",
+        "importStatement": "import { supabase } from './supabaseClient'"
+      }
+    ],
+    "../config/supabase": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabaseDiagnostic.js",
+        "importPath": "../config/supabase",
+        "importStatement": "import { supabase as configClient } from '../config/supabase'"
+      }
+    ],
+    "../lib/supabase": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabaseDiagnostic.js",
+        "importPath": "../lib/supabase",
+        "importStatement": "import { supabase as libClient } from '../lib/supabase'"
+      }
+    ],
+    "../supabase/client": [
+      {
+        "file": "/Users/cagrant/Desktop/youredu/src/utils/supabaseDiagnostic.js",
+        "importPath": "../supabase/client",
+        "importStatement": "import { supabase as supabaseClient } from '../supabase/client'"
+      }
+    ]
+  }
+}

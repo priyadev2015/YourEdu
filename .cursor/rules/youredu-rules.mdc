@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# YourEDU Development Guide
+
+## Environment Setup
+- Use 'vercel dev' to run the application locally
+- Never attempt to run the development app yourself - the developer will handle this from Terminal
+- When using Git, use 'git add .' instead of adding specific files to ensure all changes are captured
+
+## Tech Stack
+- Frontend: React.js
+- Backend/Database: Supabase
+- API Integration: Claude
+- Email Services: Resend
+
+## Development Approach
+1. When tackling new features, bug fixes, or enhancements:
+   - Consider multiple implementation approaches
+   - Create a structured plan before writing code
+   - Document your thought process
+   - Prioritize working solutions over theoretical perfection
+
+## Supabase Integration
+- Use Supabase CLI to explore tables and database structure when needed
+- Primary data storage includes: profiles, account_profiles, support_messages, auth.users
+- For user deletion operations, provide complete SQL for Supabase editor following this template:
+  ```sql
+  -- First delete any related data in other tables that reference this user
+  DELETE FROM profiles WHERE id = '[USER_ID]';
+  DELETE FROM account_profiles WHERE id = '[USER_ID]';
+  DELETE FROM support_messages WHERE user_id = '[USER_ID]';
+  -- Then delete the user from the auth.users table
+  DELETE FROM auth.users WHERE id = '[USER_ID]';

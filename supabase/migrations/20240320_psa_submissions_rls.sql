@@ -1,0 +1,1 @@
+ALTER TABLE psa_submissions ENABLE ROW LEVEL SECURITY; DROP POLICY IF EXISTS "Users can insert their own submissions" ON psa_submissions; CREATE POLICY "Users can insert their own submissions" ON psa_submissions FOR ALL USING (auth.uid() = user_id) WITH CHECK (auth.uid() = user_id);

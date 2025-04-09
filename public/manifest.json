@@ -1,0 +1,25 @@
+{
+  "short_name": "YourEDU",
+  "name": "YourEDU - Design Your Own Education Journey",
+  "icons": [
+    {
+      "src": "youredu-cap.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "youredu-cap.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "youredu-cap.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2B6CB0",
+  "background_color": "#ffffff"
+}

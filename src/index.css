@@ -1,0 +1,85 @@
+/* This file should slowly be phased out in favor of the theme/theme.js file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* @deprecated - These color variables are being phased out in favor of MUI theme colors.
+       Please use theme.palette colors from theme.js instead. */
+    /* Generate CSS variables from MUI theme */
+    --background: 0, 29%, 95%; /* From theme.palette.background.default */
+    --foreground: 207, 100%, 21%; /* From theme.palette.text.primary */
+    --card: 210, 33%, 98%; /* From theme.palette.background.card */
+
+    /* Base colors */
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 65% 46%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Card colors */
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    /* Brand colors */
+    --brand-primary: 221 65% 46%;
+    --brand-primary-light: 225 100% 97%;
+    --brand-primary-dark: 222 67% 33%;
+
+    /* Secondary colors */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-green: 142 70% 45%;
+    --secondary-green-light: 142 76% 95%;
+    --secondary-orange: 25 95% 53%;
+    --secondary-orange-light: 27 100% 95%;
+    --secondary-purple: 255 92% 76%;
+    --secondary-purple-light: 270 100% 95%;
+
+    /* Semantic colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --success: 142 70% 45%;
+    --success-light: 142 76% 95%;
+    --warning: 35 92% 51%;
+    --warning-light: 48 96% 89%;
+    --info: 217 91% 60%;
+    --info-light: 214 100% 97%;
+
+    /* Accent colors */
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    /* Popover colors */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    /* Border radius */
+    --radius: 0.5rem;
+  }
+
+  /* Ensure IBM Plex Sans is applied globally */
+  html,
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  .dark {
+    /* ... dark mode values */
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

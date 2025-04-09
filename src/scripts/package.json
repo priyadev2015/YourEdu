@@ -1,0 +1,16 @@
+{
+  "name": "migration-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "mongoose": "latest",
+    "dotenv": "latest",
+    "resend": "latest",
+    "customerio-node": "latest",
+    "@mailchimp/mailchimp_marketing": "latest",
+    "@hubspot/api-client": "latest",
+    "uuid": "latest"
+  },
+  "private": true
+} 

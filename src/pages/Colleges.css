@@ -1,0 +1,26 @@
+/* src/pages/Colleges.css */
+.college-list-item:hover,
+.school-list-item:hover,
+.document-box:hover,
+.scholarship-box:hover {
+  background-color: #e9ecef !important;
+  transform: scale(1.02); /* Slightly pop out */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+.send-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #0056b3 !important; /* Slightly darker blue */
+}
+.feedback-button:hover {
+  background-color: #0056b3 !important; /* Keep the darker blue on hover */
+}
+
+.container-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container-hover:hover {
+  transform: scale(1.01); /* Slightly smaller pop than other elements */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,6 @@
+/* src/pages/AdminMaterials.css */
+.document-box:hover {
+  background-color: #e9ecef !important;
+  transform: scale(1.02); /* Slightly pop out */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
