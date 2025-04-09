@@ -316,7 +316,7 @@ const NewYorkComplianceFiling = () => {
                                             <Typography>{completionStatus.percent}% Complete</Typography>
                                         </Box>
                                     )}
-                                   <Button
+                                    <Button
                                         variant="contained"
                                         onClick={() => window.location.href = 'https://hslda.org/post/new-york-individualized-home-instruction-plan'}
                                         sx={{ backgroundColor: '#2563EB', color: 'white' }}
@@ -588,7 +588,7 @@ const data =  [
         progress : 0,
         summary: 'New York requires homeschooling parents to maintain an Individualized Home Instruction Plan (IHIP) for each child, including course plans, materials, quarterly report dates, and instructor information.',
         instructions: 'Submit your IHIP to your local school superintendent by August 1 each year. Keep a copy for your records as it may be requested during audits.',
-        template: '/new-york-ihip' // Internal link to IHIP form
+        template: 'hhttps://www.nysed.gov/nonpublic-schools/home-instruction' // Internal link to IHIP form
     },
     {
         id: 'attendance',
@@ -608,7 +608,7 @@ const data =  [
         progress: 0,
         summary: 'Quarterly reports must document hours of instruction, material covered, and student progress for each subject in the IHIP.',
         instructions: 'Submit four quarterly reports to your superintendent on dates specified in your IHIP. Keep copies for your records.',
-        template: 'https://www.nysed.gov/nonpublic-schools/home-instruction'
+        template: 'https://hslda.org/post/new-york-quarterly-report-form'
     },
 
     // Testing/Evaluation Section
@@ -649,6 +649,6 @@ Sincerely,
         progress: 0,
         summary: 'Parents must maintain immunization records or a religious/medical exemption if not vaccinating.',
         instructions: 'Keep these records on file; they don’t need to be submitted unless requested. For exemptions, submit a written statement to the superintendent.',
-        template: 'https://www.health.ny.gov/forms/doh-2168.pdf' // NY DOH exemption form
+        template: 'https://responsiblehomeschooling.org/research/current-policy/homeschool-immunization-requirements/' // NY DOH exemption form
     }
 ];
