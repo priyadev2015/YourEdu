@@ -316,9 +316,9 @@ const NewYorkComplianceFiling = () => {
                                             <Typography>{completionStatus.percent}% Complete</Typography>
                                         </Box>
                                     )}
-                                    <Button
+                                   <Button
                                         variant="contained"
-                                        onClick={() => window.location.href = 'https://ihip.mohfw.gov.in/idsp/#!/login'}
+                                        onClick={() => window.location.href = 'https://hslda.org/post/new-york-individualized-home-instruction-plan'}
                                         sx={{ backgroundColor: '#2563EB', color: 'white' }}
                                     >
                                         {completionStatus?.percent > 0 ? 'Continue IHIP' : 'Start IHIP'}
